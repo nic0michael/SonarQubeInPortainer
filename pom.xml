@@ -33,23 +33,16 @@
         </dependency>
     </dependencies>
     
-    <parent>
-        <groupId>org.codehaus.sonar</groupId>
-        <artifactId>sonar</artifactId>
-        <version>4.5.6</version>
-        <relativePath>../..</relativePath>
-    </parent>
-    
-    <build>
-        <pluginManagement>        
-            <plugins>
-                <plugin>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.4.0.905</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+<build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.7.0.1746</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
 
 </project>

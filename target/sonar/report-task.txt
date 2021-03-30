@@ -1,0 +1,6 @@
+projectKey=com.mycompany:NicosBadProject
+serverUrl=http://buffalo.theworkpc.com:9001
+serverVersion=8.8.0.42792
+dashboardUrl=http://buffalo.theworkpc.com:9001/dashboard?id=com.mycompany%3ANicosBadProject
+ceTaskId=AXiEgV56kBD5c5vksfpD
+ceTaskUrl=http://buffalo.theworkpc.com:9001/api/ce/task?id=AXiEgV56kBD5c5vksfpD
