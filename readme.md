@@ -1,5 +1,8 @@
 # Running SonarQube in Docker managed by Portainer to test a Maven Project
 
+Portainer is an excelent Docker Management System that also comes in a docker container
+For more info look at the folowing guide:
+[https://github.com/nic0michael/Git-GitHub-and-Git-Bash-survival-guide/blob/master/Git%20GitHub%20and%20Git%20Bash%20survival%20guide.pdf](https://github.com/nic0michael/Git-GitHub-and-Git-Bash-survival-guide/blob/master/Git%20GitHub%20and%20Git%20Bash%20survival%20guide.pdf)
 
 ## Install SonarQube in Docker
 
@@ -38,6 +41,10 @@ Open the Java Project folder in terminal
 
 Run this command
 
+On your machine :
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9001 -Dsonar.login=63ff9f6e91cb99a16598ffc52050ebc4d533a4ec
+
+On Nicos Buffalo server :
 mvn sonar:sonar -Dsonar.host.url=http://buffalo.theworkpc.com:9001 -Dsonar.login=63ff9f6e91cb99a16598ffc52050ebc4d533a4ec
 
 mvn clean verify sonar:sonar -Dsonar.host.url=http://buffalo.theworkpc.com:9001 -Dsonar.login=63ff9f6e91cb99a16598ffc52050ebc4d533a4ec
